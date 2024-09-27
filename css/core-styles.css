@@ -1,3 +1,4 @@
+
 .mobile-nav {
     max-width: 100%;
 }
@@ -10,6 +11,9 @@ p {
     font-size: 1em;
 }
 
+h2{
+    margin-block-end: 60px;
+}
 
 /* Hidden Elements */
 .mobile-wrapper,
@@ -29,8 +33,10 @@ p {
 }
 
 .container {
-    max-width: 1100px;
+    max-width: 723px;
     margin-left: 120px;
+    border: 1px solid black;
+    border-bottom: none;
 }
 
 .navbar-menu img {
@@ -76,6 +82,149 @@ nav {
             box-sizing: border-box;
     max-width: 1200px;
 }
+
+/* Buttons */
+
+.button-solid{
+    width: 300px;
+    height: 86px;
+    background-color: #333333;
+    font-size: 32px;
+    color: #FEFEFE;
+    line-height: 120%;
+    padding: 24px 60px 24px 60px;
+    border-radius: 5px;
+}
+
+
+
+/*Custom Hero Button*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  padding: 0;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-wrapper {
+  position: fixed;
+  right: 0;
+  bottom: 80px;
+  transform: translateX(100%);
+  -webkit-transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+}
+
+.contact-wrapper.contact-wrapper--open {
+  transform: translateX(-10px);
+}
+
+.contact-panel {
+  background-color: #fff;
+  border: 1px solid #333333;
+  max-width: 500px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+
+.contact-panel ul {
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.contact-panel ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.contact-panel ul li a {
+  border-radius: 50%;
+  color: #101845;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  line-height: 50px;
+  text-decoration: none;
+  box-shadow: 0 1px 2px 1px rgba(170, 170, 170, 0.2);
+  -webkit-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s;
+}
+
+.contact-panel ul li a:hover {
+  box-shadow: 0 2px 5px 1px rgba(170, 170, 170, 0.6);
+}
+
+.contact-panel ul li a i {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.contact-panel__header {
+  position: relative;
+  background-color: #333333;
+  color: #fff;
+  font-size: 21px;
+  line-height: 16px;
+  padding: 15px;
+  text-align: center;
+  margin: 0;
+}
+
+.contact-close {
+  border: 0;
+  color: #ccc;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  line-height: 48px;
+}
+
+.contact-close:focus {
+  outline: none;
+}
+
+.contact-button {
+  border: 0;
+  background-color: #333333;
+  color: #fff;
+  cursor: pointer;
+  padding: 8px 16px;
+  -webkit-transition: background-color 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+  font-size: 16px;
+  line-height: 20px;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  border-radius: 4px;
+}
+
+.contact-button:hover {
+  background-color: #333333;
+}
+
+
+/*Custom Hero Button*/
+
 
 body {
     position: relative;
