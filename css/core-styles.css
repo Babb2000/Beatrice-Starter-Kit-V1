@@ -302,6 +302,7 @@ h2{
 
     /*Test*/
     margin-left: 120px;
+    margin-bottom: 120px;
 }
 
 
@@ -676,22 +677,21 @@ body:before {
 
 #gallery{
     margin-top: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
     height: 1868px;
+    width: 100%;
     background-color: #F7F7F7;
 }
 
-/* .gallery{
-
-    
-} */
+.gallery{
+    margin-left: 120px;
+    margin-right: 120px;
+} 
 
 /*Start of gallery CSS*/
 .box1{
     display: flex;
+    width: 100%;
     gap: 50px;
-
 }
 
 .box1-row1{
@@ -711,7 +711,23 @@ body:before {
     gap: 46px;
 }
 
-.box2-row1{
+
+.box2{
+    margin-top: 50px;
+    width: 1200px;
     height: 730px;
-    width: 515px;
+
+    display: flex;
+    gap: 50px;
+}
+
+.box2-box1{
+    border: 1px solid black;
+}
+
+.box2-box2{
+    border: 1px solid black;
+
+    height: 730px;
+    width: 635px;
 }
