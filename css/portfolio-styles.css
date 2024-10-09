@@ -1,7 +1,6 @@
 .portfolio-div-wrapper{
     display: flex;
     flex-direction: column;
-    margin-top: 121px;
     height: auto;
     margin-left: 120px;
     margin-right: 120px;
@@ -10,7 +9,6 @@
 }
 
 #project{
-    margin-top: 200px;
     width: 1200px;
     height: 600px;
 

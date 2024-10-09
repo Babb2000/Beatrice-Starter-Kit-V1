@@ -334,7 +334,7 @@ a{
 /*navbar */
 nav {
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -540,7 +540,7 @@ body:before {
     height: 855px;
     position: absolute;
     right: 0px;
-    margin-top: -655px;
+    margin-top: -740px;
     z-index: 2;
 }
 
