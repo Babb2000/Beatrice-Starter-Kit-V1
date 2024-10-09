@@ -721,13 +721,34 @@ body:before {
     gap: 50px;
 }
 
-.box2-box1{
-    border: 1px solid black;
-}
 
 .box2-box2{
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
     height: 730px;
     width: 635px;
+}
+
+.box2-row1{
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+}
+
+.box2-row2{
+    margin-top: 50px;
+}
+
+.galleryBtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#viewAll{
+    margin-top: 70px;
+    width: 223px;
+    height: 61px;
+    background-color: #F7F7F7;
+    border: 1px solid #333333;
 }
