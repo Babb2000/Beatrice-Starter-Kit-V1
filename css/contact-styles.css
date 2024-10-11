@@ -1,0 +1,28 @@
+.contact-section-wrapper{
+    width: 100%;
+    height: 1162px;
+
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.backgroundDiv{
+    z-index: 4;
+    width: 884px;
+    height: 1246px;
+    background-image: url(../images-contact/SwingPicture.png);
+    opacity: 60%;
+    position: absolute;
+    margin-top: -210px;
+    margin-left: 640px;
+}
+
+.overbgHeader{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: black;
+    margin-top: 80px;
+    margin-left: 140px;
+    margin-top: 200px;
+}
