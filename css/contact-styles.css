@@ -26,3 +26,74 @@
     margin-left: 140px;
     margin-top: 200px;
 }
+
+.contact-form{
+    position: relative;
+    z-index: 5;
+    margin-left: 120px;
+    width: 570px;
+    height: 774px;
+    background-color: #333333;
+}
+
+.bottomDiv{
+    border-bottom: 1px solid white;
+    width: 450px;
+    margin: 60px 60px 60px 60px;
+}
+
+.innerForm{
+    width: 450px;
+    height: 416px;
+}
+
+.firstThreeDivWrapper{
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #FEFEFE;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100%;
+}
+
+.centerBtn{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formBtn{
+    background-color: transparent;
+    border: 2px solid #FEFEFE;
+    color: #FEFEFE;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.moreInformation{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 900px;
+    width: 197px;
+    height: 192px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text{
+    margin-top: -20px;
+}
