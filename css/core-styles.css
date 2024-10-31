@@ -771,3 +771,28 @@ body:before {
 .footer-right-div{
     margin-left: 200px;
 }
+
+.Btncontainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.margin-top{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
