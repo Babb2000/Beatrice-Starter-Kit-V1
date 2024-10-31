@@ -732,6 +732,13 @@ body:before {
     background-color: #F7F7F7;
 }
 
+#footer-style2{
+    margin-top: -210px;
+    height: 405px;
+    width: 100%;
+    background-color: white;
+}
+
 .mainFooterDiv{
     /* border: 1px solid black; */
     width: 1200px;
@@ -777,22 +784,9 @@ body:before {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
-.margin-top{
-    margin-top: 50px;
-    text-align: center;
-    font-size: 48px;
-    font-weight: bold;
-    
-    display: flex;
-    justify-content: center;
-}
-
-.flex-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.extra-margin{
+    width: 100px;
+    margin-bottom: 80px;
 }

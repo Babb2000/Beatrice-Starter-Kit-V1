@@ -1,0 +1,36 @@
+.section{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.margin-top{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.portfolio-main-container{
+    height: 1628.1px;
+    width: 100%;
+   
+}
+
+.portfolio-image-row{
+   display: flex;
+   justify-content: center;
+   gap: 116px;
+   margin-bottom: 116px;
+}
+
+.leftArr{
+    margin-right: 448px;
+}
+
