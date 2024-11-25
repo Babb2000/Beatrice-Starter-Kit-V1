@@ -15,6 +15,7 @@
 .flex-wrapper{
     width: 1195px;
     display: flex;
+
 }
 
 .portfolio-main-container{
@@ -24,7 +25,7 @@
 }
 
 .portfolio-main-container-corperate{
-    height: 850px;
+    height: 700px;
     width: 100%;
    
 }
