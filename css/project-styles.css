@@ -13,12 +13,18 @@
 }
 
 .flex-wrapper{
-    width: 100%;
+    width: 1195px;
     display: flex;
 }
 
 .portfolio-main-container{
     height: 1628.1px;
+    width: 100%;
+   
+}
+
+.portfolio-main-container-corperate{
+    height: 850px;
     width: 100%;
    
 }

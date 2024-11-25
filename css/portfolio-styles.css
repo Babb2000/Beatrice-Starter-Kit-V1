@@ -1,3 +1,5 @@
+/************** Styles for Portfolio *****************/
+
 .portfolio-div-wrapper{
     display: flex;
     flex-direction: column;
@@ -32,4 +34,8 @@
   
     margin-bottom: 200px;
 }
+
+/************* Styles for Portfolio ******************/
+
+/************* Styles for Portfolio - Corperate ******************/
 
